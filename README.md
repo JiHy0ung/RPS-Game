@@ -2,9 +2,14 @@
 
 **Rock Paper Scissor Game**
 
-![무도박명수](https://img.imbc.com/adams/Content/20132/130060966217851108_Big_C.jpg)
+![무도가위바위보](https://img.imbc.com/adams/Content/20132/130060966217851108_Big_C.jpg)
 <br>
 ### **[✌🏻✊🏻✋🏻 가위 바위 보](https://jihyoung-rps-game-final.netlify.app/)**
+
+## 사용 언어
+* react
+
+<br>
 
 ## **느낀점 & 개선사항**
 생전 처음 보는 형식의 문법을 다루게 되어서 어려움이 조금 있었음.
