@@ -2,7 +2,8 @@
 
 **Rock Paper Scissor Game**
 
-![무도가위바위보](https://img.imbc.com/adams/Content/20132/130060966217851108_Big_C.jpg)
+![Uploading image.png…]()
+
 <br>
 ### **[✌🏻✊🏻✋🏻 가위 바위 보](https://jihyoung-rps-game-final.netlify.app/)**
 
