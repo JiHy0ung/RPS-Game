@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Ownglyph_ParkDaHyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:lightyellow;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box{
+    display: block;
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 50%;
+    background-color: white;
+    width: 600px;
+    height: 600px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Win{
+    color: rgb(141, 194, 18);
+    border: 10px solid rgb(160, 220, 20);
+    box-shadow: 0 0 30px rgb(170, 255, 0);
 }
 
-.App-link {
-  color: #61dafb;
+.Lose{
+    background-color: rgb(235, 235, 235);
+    color:rgb(183, 15, 49);
+    filter: saturate(50%);
+    border: 10px solid rgb(183, 15, 49);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Tie{
+    color: rgb(85, 85, 85);
+    border: 10px solid gray;
+}
+
+.item-img{
+    width: 300px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.choose{
+    font-family: 'Ownglyph_ParkDaHyun';
+    font-size: 40px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.btn:active{
+    color: rgb(208, 208, 130);
+    transform: scale(0.95);
+}
+
+.btn-sci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+}
+
+.btn-sci:active{
+    color: rgb(208, 208, 130);
+    transform: scale(0.95) rotate(90deg);
+}
+
+.title{
+    font-family: 'Ownglyph_ParkDaHyun';
+    font-weight: 800;
+    font-size: 80px;
+    color: black;
+}
+
+.result{
+    font-family: 'Ownglyph_ParkDaHyun';
+    font-size: 40px;
 }
