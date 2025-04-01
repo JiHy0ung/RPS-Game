@@ -110,3 +110,53 @@
     font-family: 'Ownglyph_ParkDaHyun';
     font-size: 40px;
 }
+
+@media (max-width: 430px) {  
+
+    .box {
+        width: 70vw;
+        height: 70vw;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .item-img {
+        width: 35%;
+    }
+
+    .main {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .choose {
+        font-size: 30px;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .btn {
+        font-size: 40px;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .btn-sci {
+        font-size: 40px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .title {
+        font-size: 50px;
+        margin: 25px;
+    }
+
+    .result {
+        font-size: 30px;
+        margin: 25px;
+    }
+}
