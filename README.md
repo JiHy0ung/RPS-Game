@@ -2,7 +2,8 @@
 
 **Rock Paper Scissor Game**
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/78597c57-50a1-4ebe-8994-cb6417fe0dd1)
+
 
 <br>
 ### **[✌🏻✊🏻✋🏻 가위 바위 보](https://jihyoung-rps-game-final.netlify.app/)**
