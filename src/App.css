@@ -5,63 +5,57 @@
     font-style: normal;
 }
 
-* {
+*{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body{
-    margin: 0;
-    padding: 0;
+    background-color:lightyellow;
 }
 
-
-.p{
+.container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:lightyellow;
     height: 100vh;
 }
 
 .box{
-    display: block;
-    text-align: center;
-    border: 10px solid black;
-    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    width: 400px;
-    height: 400px;
+    border: 20px solid black;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1; /* 정사각형 유지 */
 }
 
-.Win{
-    color: rgb(141, 194, 18);
-    border: 10px solid rgb(160, 220, 20);
-    box-shadow: 0 0 30px rgb(170, 255, 0);
-}
-
-.Lose{
-    background-color: rgb(235, 235, 235);
-    color:rgb(183, 15, 49);
-    filter: saturate(50%);
-    border: 10px solid rgb(183, 15, 49);
-}
-
-.Tie{
-    color: rgb(85, 85, 85);
-    border: 10px solid gray;
+.title{
+    font-family: 'Ownglyph_ParkDaHyun';
+    font-weight: 800;
+    font-size: 3em;
+    color: black;
+    margin: 20px;
 }
 
 .item-img{
-    width: 200px;
+    width: 70%;
+    height: 70%;
+}
+
+.result{
+    font-family: 'Ownglyph_ParkDaHyun';
+    font-size: 2em;
+    margin: 20px;
 }
 
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4em;
+    gap: 3em;
 }
 
 .choose{
@@ -110,16 +104,22 @@ body{
     transform: scale(0.95) rotate(90deg);
 }
 
-.title{
-    font-family: 'Ownglyph_ParkDaHyun';
-    font-weight: 800;
-    font-size: 50px;
-    color: black;
+.Win{
+    color: rgb(141, 194, 18);
+    border: 20px solid rgb(160, 220, 20);
+    box-shadow: 0 0 30px rgb(170, 255, 0);
 }
 
-.result{
-    font-family: 'Ownglyph_ParkDaHyun';
-    font-size: 40px;
+.Lose{
+    background-color: rgb(235, 235, 235);
+    color:rgb(183, 15, 49);
+    filter: saturate(50%);
+    border: 20px solid rgb(183, 15, 49);
+}
+
+.Tie{
+    color: rgb(85, 85, 85);
+    border: 20px solid gray;
 }
 
 @media (max-width: 430px) {  
@@ -163,11 +163,9 @@ body{
 
     .title {
         font-size: 50px;
-        margin: 25px;
     }
 
     .result {
         font-size: 30px;
-        margin: 25px;
     }
 }

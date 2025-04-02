@@ -81,12 +81,13 @@ function App() {
   }
 
   return (
-    <div className = "p">
-      <div className = "c">
-      <div className = "main">
+    <div className = "container">
+
+    <div className = "main">
         <Box title = "YOU" item = {userSelect} result = {result}/>
         <Box title = "COM" item = {computerSelect} result = {result}/>
-      </div> 
+      </div>
+      
       <h1 className = "choose">Choose one!</h1>
       <div className = "buttons">
         <button className = "btn-sci" onClick = {() => play("scissor")}>
@@ -99,7 +100,7 @@ function App() {
         <FontAwesomeIcon icon={faHand} />
         </button>
       </div>
-      </div>
+
     </div>
   );
 }
